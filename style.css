@@ -1,22 +1,22 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .text {
-    position: relative;
-    margin: 16px;
-    text-decoration: underline 1px dotted black;
-    font-weight: bold;
-    display: inline-block;
+  position: relative;
+  margin: 16px;
+  text-decoration: underline 1px dotted black;
+  font-weight: bold;
+  display: inline-block;
 }
 .tooltip {
-    position: absolute;
-    background-color: gray;
-    color: white;
-    border-radius: 4px;
-    padding: 8px;
-    bottom: -40px;
-    display: none;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  bottom: -40px;
+  display: none;
 }
 .text:hover .tooltip {
-    display: inline-block;
+  display: inline-block;
 }
