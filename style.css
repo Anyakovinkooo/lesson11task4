@@ -5,7 +5,7 @@ div.text {
   position: relative;
   margin: 16px;
   text-decoration: underline 1px dotted black;
-  display: inline-block;
+  display: block;
 }
 span.tooltip {
   position: absolute;
@@ -17,5 +17,5 @@ span.tooltip {
   display: none;
 }
 div.text:hover span.tooltip {
-  display: inline-block;
+  display: block;
 }
