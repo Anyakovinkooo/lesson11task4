@@ -16,7 +16,6 @@
     padding: 8px;
     bottom: -40px;
     display: none;
-    margin-left: -101px;
 }
 .text:hover .tooltip {
     display: inline-block;
