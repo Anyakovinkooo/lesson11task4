@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
 }
-.text {
+div.text {
   position: relative;
   margin: 16px;
   text-decoration: underline 1px dotted black;
   font-weight: bold;
   display: inline-block;
 }
-.tooltip {
+span.tooltip {
   position: absolute;
   background-color: gray;
   color: white;
@@ -17,6 +17,6 @@
   bottom: -40px;
   display: none;
 }
-.text:hover .tooltip {
+div.text:hover span.tooltip {
   display: inline-block;
 }
